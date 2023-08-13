@@ -56,6 +56,7 @@
             this.btnKaydet.TabIndex = 1;
             this.btnKaydet.Text = "Kaydet";
             this.btnKaydet.UseVisualStyleBackColor = true;
+            this.btnKaydet.Click += new System.EventHandler(this.btnKaydet_Click);
             // 
             // label1
             // 
@@ -97,6 +98,7 @@
             this.btnSil.TabIndex = 6;
             this.btnSil.Text = "Sil";
             this.btnSil.UseVisualStyleBackColor = true;
+            this.btnSil.Click += new System.EventHandler(this.btnSil_Click);
             // 
             // btnGuncelle
             // 
@@ -106,6 +108,7 @@
             this.btnGuncelle.TabIndex = 7;
             this.btnGuncelle.Text = "Güncelleme";
             this.btnGuncelle.UseVisualStyleBackColor = true;
+            this.btnGuncelle.Click += new System.EventHandler(this.btnGuncelle_Click);
             // 
             // btnListele
             // 
@@ -115,6 +118,7 @@
             this.btnListele.TabIndex = 8;
             this.btnListele.Text = "Listele";
             this.btnListele.UseVisualStyleBackColor = true;
+            this.btnListele.Click += new System.EventHandler(this.btnListele_Click);
             // 
             // Form1
             // 

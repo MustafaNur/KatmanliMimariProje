@@ -25,6 +25,45 @@ namespace DataAccessLayer
             komut1.Parameters.AddWithValue("@p1", parametre.DersAd);
             return komut1.ExecuteNonQuery();
         }
-        
+        public static List<EntityDers> DersListesi()
+        {
+            List<EntityDers> dersler = new List<EntityDers>();
+            SqlCommand komut2 = new SqlCommand("Select * From tblDersler", Baglanti.bgl);
+            if (komut2.Connection.State != ConnectionState.Open)
+            {
+                komut2.Connection.Open();
+            }
+            SqlDataReader dr = komut2.ExecuteReader();
+            while (dr.Read())
+            {
+                EntityDers ent = new EntityDers();
+                ent.DersID = byte.Parse( dr["DersID"].ToString());
+                ent.DersAd = dr["DersAd"].ToString();
+                dersler.Add(ent);
+            }
+            dr.Close();
+            return dersler;
+        }
+        public static int DersSil(byte p)
+        {
+            SqlCommand komut3 = new SqlCommand("Delete from tblDersler where DersID=@p1", Baglanti.bgl);
+            if (komut3.Connection.State != ConnectionState.Open)
+            {
+                komut3.Connection.Open();
+            }
+            komut3.Parameters.AddWithValue("@p1", p);
+            return komut3.ExecuteNonQuery();
+        }
+        public static int DersGuncelle(EntityDers p)
+        {
+            SqlCommand komut4 = new SqlCommand("Update tblDersler set DersAd = @p1 where DersID=@p2", Baglanti.bgl);
+            if (komut4.Connection.State != ConnectionState.Open)
+            {
+                komut4.Connection.Open();
+            }
+            komut4.Parameters.AddWithValue("@p1", p.DersAd);
+            komut4.Parameters.AddWithValue("@p2", p.DersID);
+            return komut4.ExecuteNonQuery();
+        }
     }
 }

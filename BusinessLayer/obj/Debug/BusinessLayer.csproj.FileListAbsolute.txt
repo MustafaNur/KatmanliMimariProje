@@ -1,0 +1,11 @@
+C:\Users\Mustafa\source\repos\NKatmanlı\KatmanliMimariProje\BusinessLayer\bin\Debug\BusinessLayer.dll
+C:\Users\Mustafa\source\repos\NKatmanlı\KatmanliMimariProje\BusinessLayer\bin\Debug\BusinessLayer.pdb
+C:\Users\Mustafa\source\repos\NKatmanlı\KatmanliMimariProje\BusinessLayer\bin\Debug\DataAccessLayer.dll
+C:\Users\Mustafa\source\repos\NKatmanlı\KatmanliMimariProje\BusinessLayer\bin\Debug\EntityLayer.dll
+C:\Users\Mustafa\source\repos\NKatmanlı\KatmanliMimariProje\BusinessLayer\bin\Debug\DataAccessLayer.pdb
+C:\Users\Mustafa\source\repos\NKatmanlı\KatmanliMimariProje\BusinessLayer\bin\Debug\EntityLayer.pdb
+C:\Users\Mustafa\source\repos\NKatmanlı\KatmanliMimariProje\BusinessLayer\obj\Debug\BusinessLayer.csproj.AssemblyReference.cache
+C:\Users\Mustafa\source\repos\NKatmanlı\KatmanliMimariProje\BusinessLayer\obj\Debug\BusinessLayer.csproj.CoreCompileInputs.cache
+C:\Users\Mustafa\source\repos\NKatmanlı\KatmanliMimariProje\BusinessLayer\obj\Debug\BusinessLayer.csproj.CopyComplete
+C:\Users\Mustafa\source\repos\NKatmanlı\KatmanliMimariProje\BusinessLayer\obj\Debug\BusinessLayer.dll
+C:\Users\Mustafa\source\repos\NKatmanlı\KatmanliMimariProje\BusinessLayer\obj\Debug\BusinessLayer.pdb
